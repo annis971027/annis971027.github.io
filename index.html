@@ -1,0 +1,114 @@
+<!--109403535 洪琬哲-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="109403535, 洪琬哲">
+    <title>My CV</title>
+    <!--使用 <link> 標籤讓 CSS 發揮效用-->
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<!-- 設定網頁背景色 -->
+<body>
+    <div>
+        <!-- 透過id改變字體和大小 -->
+        <p id="welcome">~~ Hi Hi ~~</p>
+        <img src="mypic.jpg" alt="大頭貼" width="200px" height="auto">
+        <br>
+    </div>
+
+    <div>
+        <!-- 設定各項標題背景顏色 -->
+        <h2>學歷</h2>
+        <hr>
+        <ul>
+            <img src="https://www.ncu.edu.tw/_images/all/footer-deco-brown.png" alt="中大校徽" width="100px" height="auto">
+            <!-- 超鏈結未點選、點選過、游標移動至文字分別會有不同顏色 -->
+            <li><a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8" target="_blank">國立中央大學</a>資訊管理學系學士班（2020–）</li>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/zh/f/ff/Logo_KGHS.gif" alt="雄女校徽" width="90px" height="auto">
+            <!-- 超鏈結未點選、點選過、游標移動至文字分別會有不同顏色 -->
+            <li><a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A5%B3%E5%AD%90%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8" target="_blank">高雄市立高雄女子高級中學</a>（2017–2020）</li>
+        </ul>
+        <br>
+    </div>
+
+    <div>
+        <h2>語言能力</h2>
+        <hr>
+        <ul>
+            <li>多益聽力閱讀750分</li>
+            <li>日語（聽力、口說）</li>
+        </ul>
+        <br>
+    </div>
+
+    <div>
+        <h2>專業技能</h2>
+        <hr>
+        <ul>
+            <li>C/C++</li>
+            <li>python</li>
+            <li>Java</li>
+            <li>Office文書處理</li>
+        </ul>
+        <br>
+    </div>
+
+    <div>
+        <h2>專長</h2>
+        <hr>
+        <p>游泳校隊</p>
+        <ol>
+            <li>2021全國大專院校運動會 一般女子組4x200公尺自由式接力 第六名 全校最高紀錄</li>
+            <!-- 透過id改變字的背景顏色及顏色 -->
+            <li>2022全國大專院校運動會 一般女子組4x100公尺自由式接力 <span id="second">第二名</span> 全校最高紀錄</li>
+            <li>2022全國大專院校運動會 一般女子組4x200公尺自由式接力 <span id="third">第三名</span></li>
+            <li>2022全國大專院校運動會 一般女子組200公尺蝶式 第七名 全校最高紀錄</li>
+        </ol>
+        <br>
+    </div>
+
+    <div>
+        <h2>社團經驗</h2>
+        <hr>
+        <p>中央大學雄友會返鄉服務營隊</p>
+        <ul>
+            <li>團隊合作能力</li>
+            <li>人際關係</li>
+            <li>溝通協調能力</li>
+            <li>危機處理能力</li>  
+          </ul>
+        <p>高中：雄女儀隊</p>
+        <ul>
+            <li>領導能力</li>
+            <li>責任感</li>
+            <li>毅力耐力、挫折忍受力</li>
+            <li>籌備活動的能力</li>
+        </ul>
+        <br>
+    </div>
+
+    <div>
+        <h2>興趣</h2>
+        <hr>
+        <ul>
+            <li>追劇（動漫、韓劇、日劇、陸劇）</li>
+            <!-- 透過id改變字的背景顏色及顏色 -->
+            <li>追星（<span id="suju">super junior</span>）</li>
+            <li>看漫畫、小說</li>
+        </ul>
+        <br>
+    </div>
+
+    <script>
+        onload=showmsg();
+        function showmsg() {
+            alert('！！歡迎來到 109403535 洪琬哲 的CV ！！');
+        }
+    </script>
+</body>
+</html>
